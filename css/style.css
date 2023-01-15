@@ -1,0 +1,68 @@
+#tete {
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+#endroit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+#boutonmechant{
+    font-size: 32px;
+    padding: 5%;
+    background-color: (255,255,255);
+    color: black;
+    cursor: pointer;
+    border-radius: 1%;
+}
+
+#fight{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+#visage {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+#oueils {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.yeux{
+    background-color: black;
+    padding: 10%;
+    border-radius: 30%;
+    padding-bottom: 20%;
+}
+#bouche{
+    padding: 30%;
+    background-color: red;
+    margin-top: 10%;
+}
+#hud{
+    padding-top: 3%;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; 
+}
+.hp{
+    scale: 30%;
+}
